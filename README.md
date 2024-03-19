@@ -8,9 +8,13 @@ In order to run this pipeline we require nextflow to be loaded on the FARM and t
 
 `nextflow -config sanger.config isogut.nf`
 
-For reference, the pipeline will perform the following steps:
+## Input Data Table
 
-### Download Long-Read Sequences
+To save storage space and computation time (and the current difficulty of running iRODS on farm22) we can provide a list of samples
+
+### Download All Long-Read Sequences
+
+**TO DO: Use the fetch_irods_lustre pipeline for this purpose that will then read into the input data table**
 
 The raw long-read sequencing data is on iRODS under project ID 7537. To retrieve it we initiate iRODS w iinit and after authentication, extract the data with:
 imeta qu -z seq -d study_id = 7537 > imeta_output.txt. 
