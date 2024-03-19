@@ -28,7 +28,9 @@ imeta qu -z seq -d study_id = 7537 > imeta_output.txt.
 
 The data is downloaded and the results are pushed to `/results/sequence_data`
 
-We will rename the files to be the sample identifier in order to make downstream processing easier to reference. This names will of the form `isogutXXX` which is pulled from the bam SM tag. These are the Sanger names that will be corresponding to the manifest and to the nextflow input table.
+### Rename sequence
+
+We will rename the files to be the sample identifier in order to make downstream processing easier to reference. This names will of the form `isogutXXX` which is pulled from the bam SM tag. These are the Sanger names that correspond to the various metadata we may want to incoperate down the line
 
 ### Primer Removal
 
