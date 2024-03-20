@@ -48,3 +48,19 @@ The 10x 3' version of the primers is located:
 ### Tag Removal
 
 ### Refining Reads
+
+### Cell Identification
+
+### Collapse Redundant Transcripts
+
+### Classify Transcripts
+
+### Filter Transcripts
+
+### Generate Isoform Matrices
+
+### Summarise Barcode Statistics
+
+### Deduplicate Reads
+
+### Align to Genome
